@@ -1,0 +1,93 @@
+[
+ {
+  "capability": "code",
+  "source": "artifacts/cocox-home (Vite + React + wouter)",
+  "outcome": "port to TanStack Start route /",
+  "status": "verified",
+  "next_action": "none"
+ },
+ {
+  "capability": "schema",
+  "source": "lib/db (Drizzle, empty template schema)",
+  "outcome": "none needed - no tables defined",
+  "status": "verified",
+  "next_action": "none"
+ },
+ {
+  "capability": "records",
+  "source": "none - no tables",
+  "outcome": "none needed",
+  "status": "verified",
+  "next_action": "none"
+ },
+ {
+  "capability": "auth identities",
+  "source": "none detected",
+  "outcome": "none needed",
+  "status": "verified",
+  "next_action": "none"
+ },
+ {
+  "capability": "authorization",
+  "source": "none detected",
+  "outcome": "none needed",
+  "status": "verified",
+  "next_action": "none"
+ },
+ {
+  "capability": "uploaded file bytes",
+  "source": "none detected",
+  "outcome": "none needed",
+  "status": "verified",
+  "next_action": "none"
+ },
+ {
+  "capability": "external providers",
+  "source": "iframe embeds of public sites, DuckDuckGo search URL, Google Fonts",
+  "outcome": "preserve",
+  "status": "verified",
+  "next_action": "none"
+ },
+ {
+  "capability": "public endpoints",
+  "source": "api-server GET /api/healthz (template only, unused by UI)",
+  "outcome": "not ported - unused template health check",
+  "status": "accepted",
+  "next_action": "none"
+ },
+ {
+  "capability": "callbacks/webhooks/schedules",
+  "source": "none detected",
+  "outcome": "none needed",
+  "status": "verified",
+  "next_action": "none"
+ },
+ {
+  "capability": "secrets",
+  "source": "DATABASE_URL (unused, empty schema); REPL_* platform vars",
+  "outcome": "none needed",
+  "status": "verified",
+  "next_action": "none"
+ },
+ {
+  "capability": "proxy",
+  "source": "none - app is an iframe browser shell; docs state no proxy backend",
+  "outcome": "user wants to change it after build",
+  "status": "pending",
+  "next_action": "discuss with user"
+ },
+ {
+  "capability": "cutover",
+  "source": "render.yaml static site",
+  "outcome": "publish from Lovable when ready",
+  "status": "pending",
+  "next_action": "user publishes"
+ },
+ {
+  "capability": "verification",
+  "source": "-",
+  "outcome": "preview screenshot check",
+  "status": "verified",
+  "next_action": "none"
+ }
+]
